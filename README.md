@@ -1,4 +1,6 @@
 # TensorFlow Lite PoseNet Android Demo
+### Modifications to the original
+This repo takes the original PoseNet example app from the `tensorflow/examples` repo, but replaces the code to run on local videos instead of the camera. This allows you to test the performance of a tensorflow lite model (`.tflite`) with a consistent video, without opening your camera. It also measured and saves performance metrics into a `.csv` file.
 ### Overview
 This is an app that continuously detects the body parts in the frames seen by
  your device's camera. These instructions walk you through building and running
