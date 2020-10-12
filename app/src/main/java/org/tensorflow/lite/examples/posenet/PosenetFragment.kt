@@ -218,7 +218,7 @@ class PosenetFragment :
         previewSize = Size(PREVIEW_WIDTH, PREVIEW_HEIGHT)
         previewHeight = previewSize!!.height
         previewWidth = previewSize!!.width
-        mediaPlayer = MediaPlayer.create(context, R.raw.exercise1)
+        mediaPlayer = MediaPlayer.create(context, R.raw.circle_cut)
 
         val layoutParams = surfaceView!!.layoutParams
         val fragmentWidth = surfaceView!!.width
