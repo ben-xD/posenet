@@ -1,5 +1,5 @@
 build
 .idea
 .gradle
-**/*.mp4
+# **/*.mp4
 **/*.iml
